@@ -85,10 +85,10 @@ const questions = [{
    },
    {
    type: 'input',
-   name: 'contributing',
+   name: 'contribution',
    message: 'How can others contribute to your project? (Required)',
-      validate: contributingInput => {
-         if (contributingInput) {
+      validate: contributionInput => {
+         if (contributionInput) {
          return true;
          } else {
          console.log('Please enter how to contribute!');

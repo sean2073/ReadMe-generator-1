@@ -1,10 +1,10 @@
 
-    # Hunger
+    # The Project That Hates Me
 
-    ![license](https://img.shields.io/badge/license-MIT-success.svg
+    ![license](https://img.shields.io/badge/license-MIT-success.svg)
     
     ## Description
-    A questionaire that distracts you from your hunger
+    an application to drive me insane
 
     ## Table of Contents
     - [Installation](#installation)
@@ -16,19 +16,20 @@
     - [Questions](#questions)
 
     ### Installation:
-    going to github cloning the files to  your computer, making sure the node package inquirer is installed by running npm install inquirer then running node index.js and following the prompts
+    clone this, download that, run this
 
     ### Usage:
-    make sure you are in the proper directory of the project, open the terminal, run node index.js and follow the prompts
+    yeah, no
 
     ### Credits:
-    none
+    lovely bootcamp people
 
     ### License:
-    For more information go to: <a href="https://opensource.org/licenses/MIT">License Link</a>
+    For more information go to: 
+    [License Link](https://opensource.org/licenses/MIT)
 
     ### Contribution:
-    contact me through github or email with suggestions
+    please go to GitHub and tell me what I'm doing wrong!
 
     ### Test:
     huh?

@@ -18,7 +18,7 @@ function generateMarkdown(data) {
     return `
     # ${data.title}
 
-    ![license](https://img.shields.io/badge/license-${data.license}-success.svg
+    ![license](https://img.shields.io/badge/license-${data.license}-success.svg)
     
     ## Description
     ${data.description}
@@ -42,7 +42,8 @@ function generateMarkdown(data) {
     ${data.credits}
 
     ### License:
-    For more information go to: <a href="https://opensource.org/licenses/${data.license}">License Link</a>
+    For more information go to: 
+    [License Link](https://opensource.org/licenses/${data.license})
 
     ### Contribution:
     ${data.contribution}
@@ -55,6 +56,6 @@ function generateMarkdown(data) {
     - Github:[${data.userName}](https://github/com/${data.userName})
     - Email: ${data.email}
 `;
-};
+}
 
 module.exports = generateMarkdown;
